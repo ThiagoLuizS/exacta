@@ -43,9 +43,6 @@ public class SpendingController implements SpendingResource {
     }
 
     @Override
-    public void update(SpendingForm spendingForm) {}
-
-    @Override
     public void delete(Long id) {
         service.delete(id);
     }

@@ -10,8 +10,6 @@ public class ConstanteUtils {
 	public static final String API_KEYS = "secret";
 	public static final String JWT_PROVIDER = "Bearer";
 	public static final String JWT_ROLE_KEY = "role";
-	public static final String JWT_SUB_KEY = "sub";
-	public static final String EMPTY = "";
 
 	public static String getSecurityHash(String text) {
 		return DigestUtils.sha256Hex(text);

@@ -4,17 +4,17 @@ import br.com.exacta.models.dto.PersonForm;
 import br.com.exacta.models.dto.PersonView;
 import br.com.exacta.resource.PersonResource;
 import br.com.exacta.service.PersonService;
+import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import reactor.core.publisher.Flux;
 
 import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/persons")
+@Api(value = "Recursos para obter os dados da pessoa")
 public class PersonController implements PersonResource {
 
     private final PersonService service;
