@@ -34,3 +34,14 @@ Embora exista três applications: `application`, `application-dev` e `applicatio
   - `application-hml`: A string de conexão já está apontando para uma instância RDS
 
 Se apontando para o application-hml talvez seja necessário incluir no grupo de segurança seu IP Local, as credencias para logar no AWS é `Usuário root`: exatactaprocessoseletivo@gmail.com, `Senha`: Exacta2022#
+
+## Exemplo de como obter o token para acessar os recurso da API
+```
+curl --location --request POST 'http://localhost:8080/api/auth' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=77CE304114CEFE8FDAB8BAC6C9D0FEC3' \
+--data-raw '{
+    "email": "exacta@gmail.com",
+    "password": "123"
+}'
+```
