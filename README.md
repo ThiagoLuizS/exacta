@@ -6,14 +6,14 @@ http://localhost:8080/swagger-ui/index.html
 Após o start da API spring, será possivel acessar o swagger
 
 ## Banco de dados Postgres AWS (Intância RDS)
-`Host:` database-exacta-1.cpbgqsbcex0j.us-east-1.rds.amazonaws.com
-`Port:` 5432
-`Username`: postgres
-`Password`: 12345678
+  -`Host:` database-exacta-1.cpbgqsbcex0j.us-east-1.rds.amazonaws.com
+  -`Port:` 5432
+  -`Username`: postgres
+  -`Password`: 12345678
 
 ## Acesso AWS (Para incluir ip se necessário ao grupo de segurança do banco de dados)
-`Usuário root`: exatactaprocessoseletivo@gmail.com
-`Senha`: Exacta2022#
+  -`Usuário root`: exatactaprocessoseletivo@gmail.com
+  -`Senha`: Exacta2022#
 
 Após a avaliação irei excluir a instância para não se cobrado pelo tempo de uso.
 
