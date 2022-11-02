@@ -11,7 +11,7 @@ Após o start da API spring, será possivel acessar o swagger
   - `Username`: postgres
   - `Password`: 12345678
 
-## Acesso AWS (Para incluir ip se necessário ao grupo de segurança do banco de dados)
+## Acesso console AWS (Para incluir ip se necessário ao grupo de segurança do banco de dados)
   - `Usuário root`: exatactaprocessoseletivo@gmail.com
   - `Senha`: Exacta2022#
 
