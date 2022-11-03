@@ -45,12 +45,6 @@ public class SpendingService extends AbstractService<Spending, SpendingView, Spe
         return views.stream().map(spendingMapper::entityToView).collect(Collectors.toList());
     }
 
-    public void saveCustom(SpendingForm spendingForm) {
-        String tags = spendingForm.getSeparatorTags().stream().collect(Collectors.joining(";"));
-        spendingForm.setTags(tags);
-        save(spendingForm);
-    }
-
     @Override
     protected JpaRepository<Spending, Long> getRepository() {
         return spendingRepository;
